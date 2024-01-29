@@ -5,20 +5,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>Document</title>
+		
+		<link rel="stylesheet" href="css/estilo.css">
+		<script src="js/index.js" defer></script>
+
+		<script src="https://livejs.com/live.js"></script>
 	</head>
 	<body>
-    <h1>Hello, world!</h1>
+		<form action="" id="form-registrar-tarefa">
+			<fieldset>
+				<legend>Registro de Tarefa</legend>
 
-	<div id="area-registro">
-		<form action="">
-			<input type="text" id="input-nome-tarefa" onblur="registrarTarefa(this)">
+				<input type="text" id="input-nome-tarefa" placeholder="digite o nome da tarefa >:0" onblur="registrarTarefa(this)">
+			</fieldset>
+
 		</form>
-	</div>
 
-	<div id="lista">
-
-	</div>
-	
-	<script src="js/index.js"></script>
-  </body>
+		<div id="lista"><div>
+	</body>
 </html>

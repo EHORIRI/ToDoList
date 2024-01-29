@@ -18,7 +18,7 @@ function registrarTarefa(input){
 
     const li = document.createElement('li');
     const spanValor = criarElemento('span', valor);
-    const buttonDeletar = criarElemento('button', 'Deletar');
+    const buttonDeletar = criarElemento('button');
     buttonDeletar.onclick = () => removerItem(li);
 
     li.appendChild(spanValor);
